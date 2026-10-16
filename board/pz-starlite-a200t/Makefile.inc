@@ -1,0 +1,5 @@
+BOARD_PART  ?= NONE
+XILINX_PART ?= xc7a200tfbg484-2
+CFG_DEVICE  ?= SPIx4 -size 16
+CFG_PART    ?= w25q128fv-qspi-x4-single
+MEMORY_SIZE ?= 0x40000000
